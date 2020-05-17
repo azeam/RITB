@@ -1,2 +1,2 @@
-# RiTW
-Reinventing The Wheel - A blog CMS that does nothing new
+# RITW
+Reinventing The Blog - A blog CMS that does nothing new
