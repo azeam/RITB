@@ -1,2 +1,2 @@
 # RITB
-Reinventing The Blog - A blog CMS that does nothing new
+ReInventing The Blog - A blog CMS that does nothing new
