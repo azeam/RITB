@@ -5,7 +5,7 @@ RIBT stands for ReInventing The Blog, it is a blog CMS just like the plethora of
 
 Maybe some day I will have time to actually write something useful and turn this in to an active blog or improve the code. Until then it serves as a very simple base to be further worked upon when building a PHP backend. At the moment I'm working on a more advanced web shop/blog using this as a base. The editor has been re-worked to a WYSIWYG-editor + many other changes not included here. The code for that project is still private but will probably be open-sourced once it is in a more functional state.
 
-In case someone wants to actually use this code the database structure can be imported from the file `admin/ritb_orgritb.sql` and you also need to create a `admin/access.php` file with the following content:  
+In case someone wants to actually use this code the database structure can be imported from the file `admin/ritb_orgritb.sql`, if you want to use the .htacces file (needed for "seo prettier links") add the dot before `htaccess` and you also need to create a `admin/access.php` file with the following content:  
 `<?php
 // db login
     define('DB_NAME','your-database-name');
