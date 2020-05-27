@@ -1,0 +1,209 @@
+input[type=file] {
+  position: absolute; 
+  left: -99999px;
+}
+
+.floatLeft {
+  float: left;
+  margin-top: 1em;
+}
+
+.floatRight {
+  float: right;
+  margin-bottom: 0.5em;
+}
+
+.filelabel { /* fix margin and styling differences because of custom filetype hack, still 1 px off, not sure how to get rid off */
+  clear: both;
+  margin-top: 5px;
+  height: 28px; 
+  padding: 0 0.5em;
+  color: black; 
+}
+
+.singleImg {
+  margin-bottom: 1em;
+}
+
+.postList a, .options a, .postListDialog a {  
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 94%;
+  line-height: 3;
+  color: #252525;
+  border-bottom: 1px solid #CDD2DF;
+  padding: 0 3%;
+}
+
+.postRowDraft {
+  background-color: #ffffa3;
+}
+
+.postListDialog li:last-child a { 
+  border-bottom: none;
+}
+
+.postList a:hover, .postListDialog a:hover {     
+  background: #b5c3e4;
+}
+
+.options a:hover {
+  background: #12204d !important; /* don't override on dialog */
+}
+
+textarea {
+  height: 20em;
+  width: 99%;
+}
+
+#imgHolder {
+  order: 1;
+  padding: 2em;
+  width: 15%;
+  margin: 0 1em;
+  background-color: white; 
+  border: 1px solid #909090;
+  border-radius: 0.5em; 
+}
+
+#imgHolder img {
+  width: 100%;
+  display: block; 
+}
+
+.options {
+  border: 1px solid #909090;
+  border-top: 0;
+  border-radius: 0 0 0.5em 0.5em;
+  display: none;
+  color: white;
+  background-color: #38497E;
+  padding-bottom: 1em;
+}
+
+.options a {
+  border-bottom: none;
+  color: white;
+}
+
+#imgAltEdit {
+  display: none;
+  border: 1px solid #909090;
+  position: absolute;
+  border-radius: 0.5em;
+  background-color: white;
+  color: black;
+  padding: 1em;
+  box-shadow: 2px 2px 2px #909090;
+}
+
+#profileEditHolder {
+  display: none;
+  width: auto;
+  position: absolute;
+  right: 8em;
+  top: 4em;
+  z-index: 3;
+  box-shadow: 2px 2px 2px #909090;
+}
+
+#profileEditHolder h2 {
+  float:left;
+}
+
+#profileEditHolder label {
+  clear:both;
+  float:left;
+}
+
+.profileImg {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  object-fit: cover;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.postList li .options {
+  margin: 0 auto;
+  width: 96%;
+}
+
+span {
+  margin-right: 3px; /* fix spacing before upload btn */
+}
+
+#postHolder {
+  order: 3;
+  margin: 0 1em;
+  width: 25%;
+  background-color: white; 
+  border: 1px solid #CDD2DF;
+  border-radius: 0.5em; 
+  overflow: hidden; 
+  padding-bottom: 2em;
+}
+
+#postHolder h2 {
+  margin: 2em 1em;
+}
+
+#imgHolder h2 {
+  margin-bottom: 2em;
+}
+
+.dialog {
+  display: none; 
+  border: 1px solid #909090;
+  border-radius: 0.5em; 
+  padding: 1em;
+  background-color: #87db8e;
+  z-index: 1;
+  margin-bottom: 0.5em; 
+}
+
+.warningDialog li a:hover {
+  background-color: #a4a43c;
+}
+
+#preview {
+  border: 1px solid #252525;
+  white-space: pre-line; /* show newlines */
+  width: 92%;
+}
+
+#profileSpinner, #spinner {
+  display:none;
+  border: 2px solid #909090;
+  border-top: 2px solid #12204d;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin: 0 auto 1em;
+  animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.searchHolder {
+  padding: 0 1em 1em;
+  width: 90%;
+}
+
+#imgHolder .searchHolder {
+  padding: 0;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+#searchPosts, #searchImgs {
+  padding: 1em;
+  width: 100%;
+  height: 20px;
+}

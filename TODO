@@ -1,0 +1,17 @@
+drag drop blog text to edit
+make thumbnails
+option to left/right align images
+preview 200px height multiarticle post as well
+nicer multiarticle than fadeout, with image?
+sanitize form data everywhere, at least remove script tags, maybe fixed, test
+captcha and e-mail confirm on register
+for > 1080p set higher left margin for searchpostholder, maybe fixed, test
+for > 1080p set less than 50% scaling on vertical images, they get stretched, maybe fixed, test
+set httponly and samesite on session cookie, httponly htaccess works but samesite needs testing for php 7.3
+generate static html?
+Code markup
+GitHub markup
+Save draft
+Comments, https://gitlab.com/commento ?
+När man trycker listaknapp - gör lista med enter tills man trycker av knappen
+add "link to this post" in hover options menu
